@@ -15,7 +15,9 @@ CLI tool that detects a UUID or ULID and converts between those types.
 
 ## Installation
 
-This is a command line tool. The easiest way to install it is to download the executable from https://github.com/baldwindavid/convert_id/releases and place it in your path.
+Requires Erlang to be installed on your system.
+
+This is a command line tool. The easiest way to install it is to download the executable from https://github.com/baldwindavid/convert_id/releases and place it in your path. The tool is built in elixir and distributed as an escript executable.
 
 You can also clone the repo and copy or link the `./convert_id` executable to somewhere in your path. 
 
