@@ -25,4 +25,4 @@ If you'd like to develop on it the executable can be built with `mix escript.bui
 
 ## Credits
 
-Thanks to [@morinap](https://github.com/morinap) for the idea and has a similar tool written in Python (not available on Github afaik).
+Thanks to [@morinap](https://github.com/morinap) for the idea who has a similar tool written in Python (not available on Github afaik).
