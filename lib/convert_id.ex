@@ -20,7 +20,7 @@ defmodule ConvertId do
     with {:ok, convert_fn} <- detect_type(value) do
       case convert_fn.(value) do
         {:ok, converted_value} ->
-          IO.puts(converted_value)
+          IO.write(converted_value)
 
         :error ->
           handle_failure("Cannot convert value")

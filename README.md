@@ -1,6 +1,6 @@
-# ConvertId
+# convert_id
 
-Detects a UUID or ULID and converts between those types.
+CLI tool that detects a UUID or ULID and converts between those types.
 
 ## Examples
 
@@ -15,18 +15,6 @@ Detects a UUID or ULID and converts between those types.
 
 ## Installation
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `convert_id` to your list of dependencies in `mix.exs`:
+This is a command line tool. The easiest way to install it is to clone this repo and copy or link the `./convert_id` executable to somewhere in your path.
 
-```elixir
-def deps do
-  [
-    {:convert_id, "~> 0.1.0"}
-  ]
-end
-```
-
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at <https://hexdocs.pm/convert_id>.
-
+If you'd like to develop on it the executable can be built with `mix escript.build`.
