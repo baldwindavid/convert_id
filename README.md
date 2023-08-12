@@ -15,6 +15,8 @@ CLI tool that detects a UUID or ULID and converts between those types.
 
 ## Installation
 
-This is a command line tool. The easiest way to install it is to clone this repo and copy or link the `./convert_id` executable to somewhere in your path.
+This is a command line tool. The easiest way to install it is to download the executable from https://github.com/baldwindavid/convert_id/releases and place it in your path.
+
+You can also clone the repo and copy or link the `./convert_id` executable to somewhere in your path. 
 
 If you'd like to develop on it the executable can be built with `mix escript.build`.
