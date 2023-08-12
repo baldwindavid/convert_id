@@ -22,3 +22,7 @@ This is a command line tool. The easiest way to install it is to download the ex
 You can also clone the repo and copy or link the `./convert_id` executable to somewhere in your path. 
 
 If you'd like to develop on it the executable can be built with `mix escript.build`.
+
+## Credits
+
+Thanks to [@morinap](https://github.com/morinap) for the idea and has a similar tool written in Python (not available on Github afaik).
